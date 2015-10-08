@@ -55,6 +55,10 @@ $ git checkout citi
 
 == Course Materials
 
+=== Complete Reference Application
+
+https://github.com/spring-cloud-samples/springbox-cloud
+
 === Day One
 
 * Session 1 (link:day_01/session_01/session_01.pdf[Slides])
@@ -77,19 +81,19 @@ $ git checkout citi
 
 === Day Two
 
-* link:day_02/session_05/session_05.pdf[Session 5 Slides]
+* Session 5 (link:day_02/session_05/session_05.pdf[Slides])
 ** link:day_02/session_05/lab_14/lab_14.html[Lab 14 - Deploying and Using Spring Cloud Config Server]
 ** link:day_02/session_05/lab_15/lab_15.html[Lab 15 - Refreshing Configuration with Spring Cloud Bus]
 ** link:day_02/session_05/lab_16/lab_16.html[Lab 16 - Leveraging Eureka for Service Discovery via Spring Cloud Netflix]
-* link:day_02/session_06/session_06.pdf[Session 6 Slides]
+* Session 6 (link:day_02/session_06/session_06.pdf[Slides])
 ** link:day_02/session_06/lab_17/lab_17.html[Lab 17 - Client-Side Load Balancing with Ribbon]
 ** link:day_02/session_06/lab_18/lab_18.html[Lab 18 - Declarative REST Clients with Feign]
 ** link:day_02/session_06/lab_19/lab_19.html[Lab 19 - Fault-Tolerance with Hystrix]
 ** link:day_02/session_06/lab_20/lab_20.html[Lab 20 - Monitoring Circuit Breakers with Hystrix Dashboard]
-* link:day_02/session_07/session_07.pdf[Session 7 Slides]
+* Session 7 (link:day_02/session_07/session_07.pdf[Slides])
 ** link:day_02/session_07/lab_21/lab_21.html[Lab 21 - Creating an OAuth2 Authorization Server]
 ** link:day_02/session_07/lab_22/lab_22.html[Lab 22 - Securing a Resource Server with Spring Cloud Security]
-* link:day_02/session_08/session_08.pdf[Session 8 Slides]
+* Session 8 (link:day_02/session_08/session_08.pdf[Slides])
 ** link:day_02/session_08/lab_23/lab_23.html[Lab 23 - Building a Simple Reverse Proxy with Zuul]
 ** link:day_02/session_08/lab_24/lab_24.html[Lab 24 - API Aggregation and Transformation with RxJava]
 ** link:day_02/session_08/lab_25/lab_25.html[Lab 25 - Implementing OAuth2 SSO in the API Gateway with Spring Cloud Security]

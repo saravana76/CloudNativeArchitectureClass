@@ -11,17 +11,27 @@
 	<name>springbox-auth-server</name>
 	<description>SpringBox Authentication Server</description>
 
+<<<<<<< HEAD
        <parent>
           <groupId>org.springframework.cloud</groupId>
           <artifactId>spring-cloud-starter-parent</artifactId>
           <version>1.0.1.RELEASE</version>
        </parent>
+=======
+ <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>1.0.1.RELEASE</version>
+    </parent>
+
+>>>>>>> citi
 
 	<properties>
 		<start-class>io.springbox.authserver.SpringboxAuthServerApplication</start-class>
 	</properties>
 
 	<dependencies>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -33,12 +43,27 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+=======
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+>>>>>>> citi
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
 			<version>2.0.7.RELEASE</version>
 		</dependency>
+<<<<<<< HEAD
           <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -46,4 +71,21 @@
          </dependency>
 
 	</dependencies>
+=======
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+</dependencies>
+
+ <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> citi
 </project>
